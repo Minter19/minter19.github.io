@@ -2,17 +2,13 @@ import type { NextConfig } from "next";
 
 
 const isGitHubPages = process.env.NODE_ENV === "production";
-const repoName = "minter19.github.io";
+const repoName = "landing";
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
-  basePath: isGitHubPages ? `/${repoName}` : "",
-  assetPrefix: isGitHubPages ? `/${repoName}` : "",
+  basePath: "/landing",
   trailingSlash: true,
-  output: "export",
-  images: {
-    domains: ["upload.wikimedia.org"],
-  },  
+  output: "export"
 };
 
 export default nextConfig;
