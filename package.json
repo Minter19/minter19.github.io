@@ -9,8 +9,7 @@
     "start": "next start",
     "lint": "next lint",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d out -r https://github.com/Minter19/landing-page.git"
-    
+    "deploy": "gh-pages -d out -r https://github.com/Minter19/minter19.github.io.git"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
