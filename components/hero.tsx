@@ -24,12 +24,11 @@ export default function Hero() {
         const animationDuration = 3000; // Adjust based on the length of the animation (in ms)
         const delay = setTimeout(() => {
           
-          replay();
           setKey((prev) => prev + 1); // Increment to restart animation
         }, animationDuration);
     
         return () => clearTimeout(delay); // Cleanup timeout on unmount
-      }, [key]);
+      }, [key]); // Add key to the dependency array to trigger a new animation on mount and restartkey);
     return (
         <section className="text-center isolate md:isolation-auto">
             <div className="relative min-h-[calc(60vh)] md:min-h-[calc(90vh)] flex justify-center items-center">
@@ -41,7 +40,7 @@ export default function Hero() {
                     <div className="flex items-center justify-center md:basis-1/2">
                         <div className="w-full">
                             <h1 className="text-4xl md:text-6xl font-bold mb-4 ">
-                                <Fade>Hi, I'm <span className="text-yellow-400">MPRX Zero One</span></Fade>
+                                <Fade>Hi, I&apos;m <span className="text-yellow-400">MPRX Zero One</span></Fade>
                             </h1>
                             <p className="text-lg md:text-2xl mb-6 h-[2rem] overflow-hidden">
                                 <a 
@@ -52,8 +51,8 @@ export default function Hero() {
                                     
                             </p>
                             <Fade delay={200} duration={1000} fraction={0.5} triggerOnce>
-                                <p className="text-gray-500 mb-8">I'm a passionate developer and designer dedicated to building modern, scalable, and
-                                user-friendly solutions. Let's bring ideas to life, one project at a time. </p>
+                                <p className="text-gray-500 mb-8">I&apos;m a passionate developer and designer dedicated to building modern, scalable, and
+                                user-friendly solutions. Let&apos;s bring ideas to life, one project at a time. </p>
                             </Fade>
                            
                         </div>

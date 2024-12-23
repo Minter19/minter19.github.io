@@ -6,9 +6,7 @@ import Autoplay from "embla-carousel-autoplay";
 import {
   Carousel,
   CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
+  CarouselItem
 } from "./ui/carousel";
 import { Card, CardContent } from "./ui/card";
 import { Fade } from "react-awesome-reveal";
@@ -87,12 +85,12 @@ export default function About() {
       <section className="text-lg text-justify flex flex-col gap-2">
         <Fade>
           <p className="mt-4">
-          Hi, I'm a Computer Science graduate from Universitas Sumatera Utara. During my studies, I acquired the necessary knowledge and skills in computer science, including programming, data analysis, and software development.
+          Hi, I&apos;m a Computer Science graduate from Universitas Sumatera Utara. During my studies, I acquired the necessary knowledge and skills in computer science, including programming, data analysis, and software development.
           </p>
         </Fade>
         <Fade>
         <p>
-        I'm an enthusiastic and honest individual with strong critical thinking skills. In terms of hard skills, I have proficiency in Node.js, .NET Core, HTML CSS, and Next JS. As an IT Developer, I have been working at PT Sigma Cipta Utama, a subsidiary of Elnusa Tbk, where I'm responsible for developing the web application for datamigas.esdm.go.id, including the portal and landing page.
+        I&apos;m an enthusiastic and honest individual with strong critical thinking skills. In terms of hard skills, I have proficiency in Node.js, .NET Core, HTML CSS, and Next JS. As an IT Developer, I have been working at PT Sigma Cipta Utama, a subsidiary of Elnusa Tbk, where I&apos;m responsible for developing the web application for datamigas.esdm.go.id, including the portal and landing page.
         </p>
         </Fade>
         <Fade>
@@ -102,7 +100,7 @@ export default function About() {
         </Fade>
         <Fade>
         <p>
-        With my technical proficiency as well as strong soft skills such as honesty, enthusiasm, critical thinking, and adaptability, I'm ready to take on challenges in application development field and make a positive contribution in the workplace.
+        With my technical proficiency as well as strong soft skills such as honesty, enthusiasm, critical thinking, and adaptability, I&apos;m ready to take on challenges in application development field and make a positive contribution in the workplace.
         </p>
         </Fade>
       </section>

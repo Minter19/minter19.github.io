@@ -3,15 +3,6 @@ import { Button } from "@/components/ui/button"
 import {Bot, Text} from "lucide-react";
 
 import {
-    DropdownMenu,
-    DropdownMenuContent,
-    DropdownMenuItem,
-    DropdownMenuLabel,
-    DropdownMenuSeparator,
-    DropdownMenuTrigger,
-  } from "@/components/ui/dropdown-menu"
-
-  import {
     Drawer,
     DrawerClose,
     DrawerContent,
@@ -20,7 +11,7 @@ import {
     DrawerHeader,
     DrawerTitle,
     DrawerTrigger,
-  } from "@/components/ui/drawer"
+} from "@/components/ui/drawer"
 
 export default function Header() {
     return (
