@@ -1,37 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Minter Prasetyo Rajagukguk - Portfolio
 
-## Getting Started
+Welcome to the official portfolio of **Minter Prasetyo Rajagukguk**! This repository contains the codebase for my personal portfolio website, showcasing my expertise in **web development**, professional achievements, and a collection of projects.
 
-First, run the development server:
+## 🌐 Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Visit the live website: [Minter Prasetyo Rajagukguk - Portfolio](https://minter-alpha-jade.vercel.app/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📖 About
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This portfolio is designed to highlight my skills, projects, and professional experiences in web development. The website is built using modern web technologies and features a responsive design for an optimal user experience across devices.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Features
 
-## Learn More
+- **Professional Overview**: Learn about my skills, experience, and areas of expertise.
+- **Project Showcase**: Explore some of the projects I’ve worked on.
+- **Contact Information**: Reach out to me via the contact form or social media links.
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Technologies Used
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Frontend**: [React](https://reactjs.org/) / [Next.js](https://nextjs.org/)
+- **Styling**: [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) / [Tailwind CSS](https://tailwindcss.com/) (or other framework used)
+- **Backend**: Node.js (if applicable)
+- **Deployment**: GitHub Pages / Vercel / Netlify (or other service)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📂 Repository Structure
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# landing-page
+```plaintext
+.
+├── public/          # Static files (images, favicon, etc.)
+├── app/             # Source files for components and pages
+├── styles/          # Styling files
+├── package.json     # Project dependencies and scripts
+└── README.md        # Documentation
