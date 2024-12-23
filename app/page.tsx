@@ -6,12 +6,15 @@ import Project from "@/components/project";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-background font-sans">
-        <Hero />
+    <div className="min-h-screen bg-background font-sans ">
+      <Hero />
+      <div className="container mx-auto">
         <About />
         <Project/>
         <Certificate />
         <Contact />
+      </div>
+        
     </div>
   );
 }

@@ -1,6 +1,7 @@
 
 import { lisencesData } from "@/app/data/lisences";
 import { ILisencesData } from "@/app/types/lisences";
+import { Fade } from "react-awesome-reveal";
 
 
 export default function Certificate() {
@@ -10,6 +11,7 @@ export default function Certificate() {
             {
                 lisencesData && lisencesData.map((lisence: ILisencesData) => (
                     <div key={lisence.id}>
+                        <Fade>
                         <div className="flex mt-4">
                             <div className="flex-shrink-0">
                                 <img src={lisence.logoUrl} width={80} height={80} alt={`logo of ${lisence.credentialID}`}/>
@@ -22,10 +24,11 @@ export default function Certificate() {
                                 {lisence.skills && <p className="my-2"><strong>Skills:</strong> {lisence.skills}</p>}
                             </div>
                         </div>
+                        </Fade>
                         <hr />
                     </div>
                 )
-            
+
             )}
         </section>
 )}
