@@ -10,6 +10,7 @@ import {
 } from "./ui/carousel";
 import { Card, CardContent } from "./ui/card";
 import { Fade } from "react-awesome-reveal";
+import Image from "next/image";
 
 interface ISkillList {
   name: string;
@@ -127,7 +128,7 @@ export default function About() {
                     <div className="p-1">
                       <Card>
                         <CardContent className="flex aspect-square items-center justify-center p-6 h-32" >
-                          <img src={`${skill.imgUrl}`} alt={skill.name} width={100} height={100} />
+                          <Image src={`${skill.imgUrl}`} alt={skill.name} width={100} height={100} />
                         </CardContent>
                       </Card>
                     </div>

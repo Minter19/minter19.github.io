@@ -1,6 +1,7 @@
 
 import { lisencesData } from "@/app/data/lisences";
 import { ILisencesData } from "@/app/types/lisences";
+import Image from "next/image";
 import { Fade } from "react-awesome-reveal";
 
 
@@ -14,7 +15,7 @@ export default function Certificate() {
                         <Fade>
                         <div className="flex mt-4">
                             <div className="flex-shrink-0">
-                                <img src={lisence.logoUrl} width={80} height={80} alt={`logo of ${lisence.credentialID}`}/>
+                                <Image src={lisence.logoUrl} width={80} height={80} alt={`logo of ${lisence.credentialID}`}/>
                             </div>
                             <div className="pl-2">
                                 <h2 className="font-bold">{lisence.name}</h2>

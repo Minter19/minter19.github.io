@@ -2,14 +2,11 @@
   "name": "belajar-shadcnui",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://minter19.github.io",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d out -r https://github.com/Minter19/minter19.github.io.git"
+    "lint": "next lint"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",

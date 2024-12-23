@@ -1,5 +1,6 @@
 import { projectsData } from "@/app/data/project";
 import { IProjectData } from "@/app/types/project";
+import Image from "next/image";
 import { Fade } from "react-awesome-reveal";
 
 export default function Project() {
@@ -12,7 +13,7 @@ export default function Project() {
             <Fade>
             <div className="flex mt-4">
               <div className="flex-shrink-0">
-                <img
+                <Image
                   src={`${project.imgUrl}`}
                   className="mt-2 aspect-square"
                   width={80}

@@ -2,7 +2,7 @@
 
 import {useScramble} from "use-scramble";
 import { useEffect, useState } from "react";
-
+import Image from "next/image";
 
 import { Fade } from "react-awesome-reveal";
 
@@ -40,7 +40,7 @@ export default function Hero() {
                     <div className="flex items-center justify-center md:basis-1/2">
                         <div className="w-full">
                             <h1 className="text-4xl md:text-6xl font-bold mb-4 ">
-                                <Fade>Hi, I&apos;m <span className="text-yellow-400">MPRX Zero One</span></Fade>
+                                <Fade>Hi, I&apos;m <span className="text-yellow-400">Minter Prasetyo Rajagukguk</span></Fade>
                             </h1>
                             <p className="text-lg md:text-2xl mb-6 h-[2rem] overflow-hidden">
                                 <a 
@@ -58,7 +58,7 @@ export default function Hero() {
                         </div>
                     </div>
                     <div className="hidden md:block">
-                        <img src="person.svg" className="mx-auto drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] w-[400px] rounded-full" alt="hero"/>
+                        <Image src="person.svg" className="mx-auto drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] w-[400px] rounded-full" width={0} height={0} alt="hero"/>
                     </div>
                 </div>
             </div>
