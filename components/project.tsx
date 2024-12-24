@@ -15,7 +15,7 @@ export default function Project() {
               <div className="flex-shrink-0">
                 <Image
                   src={`${project.imgUrl}`}
-                  className="mt-2 aspect-square"
+                  className="mt-2"
                   width={80}
                   height={80}
                   alt={`logo of }`}

@@ -28,12 +28,12 @@ export default function Header() {
             </nav>
             <Drawer>
                 <DrawerTrigger asChild>
-                    <Button variant="outline" className="md:hidden">
+                    <Button aria-label='Open navigation menu' variant="outline" className="md:hidden">
                         <Text />
                     </Button>
                 </DrawerTrigger>
                 <DrawerContent>
-                    <DrawerClose asChild>
+                    <DrawerClose aria-label='Close navigation menu' asChild>
                         <DrawerClose />
                     </DrawerClose>
                     <DrawerHeader>
