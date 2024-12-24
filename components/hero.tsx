@@ -23,12 +23,12 @@ export default function Hero() {
       useEffect(() => {
         const animationDuration = 3000; // Adjust based on the length of the animation (in ms)
         const delay = setTimeout(() => {
-          
+          replay();
           setKey((prev) => prev + 1); // Increment to restart animation
         }, animationDuration);
     
         return () => clearTimeout(delay); // Cleanup timeout on unmount
-      }, [key]); // Add key to the dependency array to trigger a new animation on mount and restartkey);
+      }, [replay,key]); // Add key to the dependency array to trigger a new animation on mount and restartkey);
     return (
         <section className="text-center isolate md:isolation-auto">
             <div className="relative min-h-[calc(60vh)] md:min-h-[calc(90vh)] flex justify-center items-center">
@@ -40,25 +40,25 @@ export default function Hero() {
                     <div className="flex items-center justify-center md:basis-1/2">
                         <div className="w-full">
                             <h1 className="text-4xl md:text-6xl font-bold mb-4 ">
-                                <Fade>Hi, I&apos;m <span className="text-yellow-400">Minter Prasetyo Rajagukguk</span></Fade>
+                                <Fade>Hi, I&apos;m <span className="text-yellow-400 drop-shadow-md">Minter Prasetyo Rajagukguk</span></Fade>
                             </h1>
                             <p className="text-lg md:text-2xl mb-6 h-[2rem] overflow-hidden">
-                                <a 
+                                <span 
                                     ref={ref} key={key}
                                     onMouseOver={replay} 
                                     onFocus={replay}
-                                    />
+                                    ></span>
                                     
                             </p>
                             <Fade delay={200} duration={1000} fraction={0.5} triggerOnce>
-                                <p className="text-gray-500 mb-8">I&apos;m a passionate developer and designer dedicated to building modern, scalable, and
+                                <p className="text-gray-500 mb-8 drop-shadow-sm">I&apos;m a passionate developer and designer dedicated to building modern, scalable, and
                                 user-friendly solutions. Let&apos;s bring ideas to life, one project at a time. </p>
                             </Fade>
                            
                         </div>
                     </div>
                     <div className="hidden md:block">
-                        <Image src="person.svg" className="mx-auto drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] w-[400px] rounded-full" width={0} height={0} alt="hero"/>
+                        <Image src="/person.webp" className="mx-auto drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] w-[400px] rounded-full" width={1000} height={1000} alt="hero"/>
                     </div>
                 </div>
             </div>
