@@ -58,7 +58,7 @@ export default function Hero() {
                         </div>
                     </div>
                     <div className="hidden md:block">
-                        <Image src="/person.webp" className="mx-auto drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] w-[400px] rounded-full" width={1000} height={1000} alt="hero"/>
+                        <Image loading="eager" src="/person.webp" className="mx-auto drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] w-[400px] rounded-full" width={1000} height={1000} alt="hero"/>
                     </div>
                 </div>
             </div>
