@@ -16,7 +16,7 @@ import {
 } from "@/components/ui/form"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import { Linkedin, Github } from "lucide-react"
+import { Linkedin, Github, Rss } from "lucide-react"
 
 const formSchema = z.object({
   yourname: z.string().min(5, {message: "Yourname text must be at least 4 characters"}).max(50, {message: "Yourname text must be at most 50 characters"}),
@@ -28,6 +28,7 @@ export default function Contact() {
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
+      yourname: "", 
       email: "",
       message: "",
     },
@@ -35,11 +36,12 @@ export default function Contact() {
 
   function onSubmit(values: z.infer<typeof formSchema>) {
     console.log(values)
+    alert("Oops!, Under maintenance for this feature!");
   }
 
   return (
     <section id="contact" className="py-4 px-4 md:px-6 lg:px-8">
-      <h2 className="text-3xl font-bold mb-4">Contact</h2>
+      <h2 className="text-2xl md:text-3xl font-bold mb-4">Contact</h2>
     
       <h3>If you have further questions about my projects or other inquiries feel free to contact me by filling the form below.</h3>
 
@@ -104,6 +106,9 @@ export default function Contact() {
                 </div>
                 <div className="flex items-center gap-2 btn" >
                   <a href="https://github.com/minter19" target="_blank" rel="noopener noreferrer" aria-label="Visit my GitHub profile"><Button asChild variant={"outline"} size={"icon"}><Github/></Button> </a>
+                </div>
+                <div className="flex items-center gap-2 btn" >
+                  <a href="https://learn.microsoft.com/en-gb/users/minterprasetyorajagukguk-8894/" target="_blank" rel="noopener noreferrer" aria-label="Visit my Microsoft Learn Profile"><Button asChild variant={"outline"} size={"icon"}><Rss/></Button> </a>
                 </div>
             </div>
         </div>

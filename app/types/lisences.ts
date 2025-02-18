@@ -5,5 +5,6 @@ export interface ILisencesData{
     issuedDate: string,
     credentialID: string | null,
     skills: string | null,
+    lisenceUrl?: string | null,
     logoUrl: string
 }

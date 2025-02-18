@@ -36,7 +36,7 @@ export default function Hero() {
                     <path fill="#f3f4f5" fillOpacity="1"
                           d="M0,192L40,213.3C80,235,160,277,240,288C320,299,400,277,480,234.7C560,192,640,128,720,90.7C800,53,880,43,960,48C1040,53,1120,75,1200,90.7C1280,107,1360,117,1400,122.7L1440,128L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path>
                 </svg>
-                <div className="grid px-4 md:px-6 lg:px-8 grid-cols-1  md:grid-cols-2 gap-2 flex-row md:flex-row">
+                <div className="container gap-4 grid px-4 md:px-6 lg:px-8 grid-cols-1  md:grid-cols-2 flex-row md:flex-row">
                     <div className="flex items-center justify-center md:basis-1/2">
                         <div className="w-full">
                             <h1 className="text-4xl md:text-6xl font-bold mb-4 ">
@@ -51,14 +51,13 @@ export default function Hero() {
                                     
                             </p>
                             <Fade delay={200} duration={1000} fraction={0.5} triggerOnce>
-                                <p className="text-gray-500 mb-8 drop-shadow-sm">I&apos;m a passionate developer and designer dedicated to building modern, scalable, and
-                                user-friendly solutions. Let&apos;s bring ideas to life, one project at a time. </p>
+                                <p className="text-gray-500 mb-8 drop-shadow-sm">I am an IT Developer with expertise in Node.js, .NET Core, and Next.js, dedicated to delivering high-quality, scalable web applications. Currently contributing to datamigas.esdm.go.id, I am passionate about driving innovation and applying my skills to solve complex challenges in the tech industry.</p>
                             </Fade>
                            
                         </div>
                     </div>
                     <div className="hidden md:block">
-                        <Image loading="eager" src="/person.webp" className="mx-auto drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] w-[400px] rounded-full" width={1000} height={1000} alt="hero"/>
+                        <Image loading="eager" src="/person.webp" className="mx-auto drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] w-[calc(60vh)] rounded-full" width={1000} height={1000} alt="hero"/>
                     </div>
                 </div>
             </div>

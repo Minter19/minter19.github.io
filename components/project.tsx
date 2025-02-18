@@ -6,7 +6,7 @@ import { Fade } from "react-awesome-reveal";
 export default function Project() {
   return (
     <section id="project" aria-label="Navigate to project" className="py-4 px-4 md:px-6 lg:px-8">
-      <h2 className="text-3xl font-bold mb-4">Projects</h2>
+      <h2 className="text-2xl md:text-3xl font-bold mb-4">Projects</h2>
       <div>
         {projectsData.map((project: IProjectData) => (
           <div key={project.id}>

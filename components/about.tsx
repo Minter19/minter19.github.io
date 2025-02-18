@@ -18,7 +18,7 @@ import Image from "next/image";
 export default function About() {
   return (
     <section className="py-10 px-4 md:px-6 lg:px-8" id="about">
-      <Label className="text-3xl font-bold mb-4"> About</Label>
+      <Label className="text-2xl md:text-3xl font-bold mb-4"> About</Label>
       <section className="text-lg text-justify flex flex-col gap-2">
         <Fade>
           <p className="mt-4">

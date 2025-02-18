@@ -8,7 +8,7 @@ import { Fade } from "react-awesome-reveal";
 export default function Certificate() {
     return (
         <section id="certificate" className="py-4 px-4 md:px-6 lg:px-8">
-            <h2 className="text-3xl font-bold mb-4">Lisences & Certifications</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mb-4">Lisences & Certifications</h2>
             {
                 lisencesData && lisencesData.map((lisence: ILisencesData) => (
                     <div key={lisence.id}>
@@ -18,7 +18,7 @@ export default function Certificate() {
                                 <Image src={lisence.logoUrl} width={80} height={80} alt={`logo of ${lisence.credentialID}`}/>
                             </div>
                             <div className="pl-2">
-                                <h2 className="font-bold">{lisence.name}</h2>
+                                {lisence.lisenceUrl ? <a href={lisence.lisenceUrl} target="_blank" rel="noopener noreferrer"><h2 className="font-bold hover:underline">{lisence.name}</h2></a> : <h2 className="font-bold">{lisence.name}</h2>}
                                 <p>{lisence.company}</p>
                                 <p className="text-slate-600">Issued {lisence.issuedDate}</p>
                                 {lisence.credentialID && <p className="text-slate-600">Credential ID {lisence.credentialID}</p>}
