@@ -4,60 +4,80 @@ export const skillList: ISkillList[] = [
     {
       name: "Node JS",
       imgUrl:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/120px-Node.js_logo.svg.png",
+        "/assets/logos/nodejs_logo.webp",
     },
     {
       name: "React",
       imgUrl:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/120px-React-icon.svg.png",
+        "/assets/logos/reactjs_logo.webp",
     },
     {
       name: "Dotnet",
       imgUrl:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/120px-.NET_Core_Logo.svg.png",
+        "/assets/logos/dotnet_logo.webp",
     },
     {
       name: "Next.js",
       imgUrl:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/120px-Nextjs-logo.svg.png",
+        "/assets/logos/nextjs_logo.webp"
+    },
+    {
+      name: "Bootstrap",
+      imgUrl:
+        "/assets/logos/bootstrap_logo.png",
     },
     {
       name: "Tailwind CSS",
       imgUrl:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/120px-Tailwind_CSS_Logo.svg.png?20230715030042",
+        "/assets/logos/tailwindcss_logo.webp",
+    },
+    {
+      name: "Mudblazor",
+      imgUrl:
+        "/assets/logos/mudblazor_logo.png",
     },
     {
       name: "Jenkins",
       imgUrl:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Jenkins_logo.svg/87px-Jenkins_logo.svg.png?20120629215426",
+        "/assets/logos/jenkins_logo.webp",
     },
     {
       name: "Git",
-      imgUrl: "https://git-scm.com/images/logos/2color-lightbg@2x.png",
+      imgUrl: "/assets/logos/git_logo.webp",
     },
     {
       name: "PostgreSQL",
       imgUrl:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/116px-Postgresql_elephant.svg.png",
+        "/assets/logos/postgresql_logo.webp",
+    },
+    {
+      name: "Redis",
+      imgUrl:
+        "/assets/logos/redis_logo.svg",
     },
     {
       name: "Docker",
       imgUrl:
-        "https://www.docker.com/wp-content/uploads/2023/08/logo-guide-logos-1.svg",
+        "/assets/logos/docker_logo.svg",
+    },
+    {
+      name: "Frappe Framework",
+      imgUrl:
+        "/assets/logos/frappe_logo.png",
     },
     {
       name: "Nginx",
       imgUrl:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/120px-Nginx_logo.svg.png",
+        "/assets/logos/nginx_logo.webp",
     },
     {
       name: "Linux",
       imgUrl:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/101px-Tux.svg.png",
+        "/assets/logos/linux_logo.webp",
     },
     {
       name: "Playwright",
       imgUrl:
-        "https://seeklogo.com/images/P/playwright-logo-22FA8B9E63-seeklogo.com.png",
+        "/assets/logos/playwright_logo.webp",
     },
   ];

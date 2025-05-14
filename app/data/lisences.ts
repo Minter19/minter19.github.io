@@ -9,7 +9,7 @@ export const lisencesData: ILisencesData[] = [
         issuedDate: "Sep 2024",
         credentialID: "gRuEzeGoY3",
         skills: "Soft Skills Training",
-        logoUrl: "https://media.licdn.com/dms/image/v2/C560BAQF8tkbyLYcsEA/company-logo_100_100/company-logo_100_100/0/1630568336612/pertamina_logo?e=1742428800&v=beta&t=CVSX11eW10NFz-A0LzRXNyQRLhPF9YtGTSYLLaxq5Uw"
+        logoUrl: "/assets/logos/pertamina_logo.webp"
     },
     {
         id: 2,
@@ -18,7 +18,7 @@ export const lisencesData: ILisencesData[] = [
         issuedDate: "Sep 2024",
         credentialID: "KcqAqZGGFW",
         skills: "Soft Skills Training",
-        logoUrl: "https://media.licdn.com/dms/image/v2/C560BAQF8tkbyLYcsEA/company-logo_100_100/company-logo_100_100/0/1630568336612/pertamina_logo?e=1742428800&v=beta&t=CVSX11eW10NFz-A0LzRXNyQRLhPF9YtGTSYLLaxq5Uw"
+        logoUrl: "/assets/logos/pertamina_logo.webp"
     },
     {
         id: 3,
@@ -28,7 +28,7 @@ export const lisencesData: ILisencesData[] = [
         credentialID: "UC-691e8118-7154-47d1-99a0-c67ec477f253",
         skills: "Docker . Nginx . Bash . Linux",
         lisenceUrl:"https://www.linkedin.com/in/minterrgg/details/certifications/1707914623162/single-media-viewer/?profileId=ACoAADRd4ScBnP0vtHbjWrRSspM4zy_XdKrJ2Ls",
-        logoUrl: "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_100_100/company-logo_100_100/0/1723593046388/udemy_logo?e=1742428800&v=beta&t=a1oM5CbTC5NEYMM8gDVlVfyUw3nqn2OiiU2-xDuit_Q"
+        logoUrl: "/assets/logos/udemy_logo.webp"
     },
     {
         id: 4,
@@ -38,7 +38,7 @@ export const lisencesData: ILisencesData[] = [
         credentialID: "UC-875deb02-0d54-4d44-b393-fca34f1daeb0",
         skills: "Talend . SQL . Datawarehousing",
         lisenceUrl: "https://www.udemy.com/certificate/UC-875deb02-0d54-4d44-b393-fca34f1daeb0/",
-        logoUrl: "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_100_100/company-logo_100_100/0/1723593046388/udemy_logo?e=1742428800&v=beta&t=a1oM5CbTC5NEYMM8gDVlVfyUw3nqn2OiiU2-xDuit_Q"
+        logoUrl: "/assets/logos/udemy_logo.webp"
     },
     {
         id: 5,
@@ -47,7 +47,7 @@ export const lisencesData: ILisencesData[] = [
         issuedDate: "Apr 2022",
         credentialID: "DQLABSQLTSQGUKJQ",
         skills: "SQL . Data Engineering",
-        logoUrl: "https://media.licdn.com/dms/image/v2/C510BAQFURjtnIHVUAA/company-logo_100_100/company-logo_100_100/0/1631435607588/dqlab_logo?e=1742428800&v=beta&t=xkyKNhn6uEVLkR1BEfwi9JD5w0bbrfY0yoGxcrNTXOI"
+        logoUrl: "/assets/logos/dqlab_logo.webp"
     },
     {
         id: 6,
@@ -56,7 +56,7 @@ export const lisencesData: ILisencesData[] = [
         issuedDate: "Apr 2022",
         credentialID: "DQLABDVIZ2COQKHM",
         skills: "SQL . Data Quality",
-        logoUrl: "https://media.licdn.com/dms/image/v2/C510BAQFURjtnIHVUAA/company-logo_100_100/company-logo_100_100/0/1631435607588/dqlab_logo?e=1742428800&v=beta&t=xkyKNhn6uEVLkR1BEfwi9JD5w0bbrfY0yoGxcrNTXOI"
+        logoUrl: "/assets/logos/dqlab_logo.webp"
     },
     {
         id: 7,
@@ -65,7 +65,7 @@ export const lisencesData: ILisencesData[] = [
         issuedDate: "Apr 2022",
         credentialID: "",
         skills: "SQL",
-        logoUrl: "https://media.licdn.com/dms/image/v2/C510BAQFURjtnIHVUAA/company-logo_100_100/company-logo_100_100/0/1631435607588/dqlab_logo?e=1742428800&v=beta&t=xkyKNhn6uEVLkR1BEfwi9JD5w0bbrfY0yoGxcrNTXOI"
+        logoUrl: "/assets/logos/dqlab_logo.webp"
     },
     {
         id: 8,
@@ -74,7 +74,7 @@ export const lisencesData: ILisencesData[] = [
         issuedDate: "Apr 2022",
         credentialID: "",
         skills: "SQL",
-        logoUrl: "https://media.licdn.com/dms/image/v2/C510BAQFURjtnIHVUAA/company-logo_100_100/company-logo_100_100/0/1631435607588/dqlab_logo?e=1742428800&v=beta&t=xkyKNhn6uEVLkR1BEfwi9JD5w0bbrfY0yoGxcrNTXOI"
+        logoUrl: "/assets/logos/dqlab_logo.webp"
     },
     {
         id: 9,
@@ -83,7 +83,7 @@ export const lisencesData: ILisencesData[] = [
         issuedDate: "Mar 2022",
         credentialID: "",
         skills: "SQL",
-        logoUrl: "https://media.licdn.com/dms/image/v2/C510BAQFURjtnIHVUAA/company-logo_100_100/company-logo_100_100/0/1631435607588/dqlab_logo?e=1742428800&v=beta&t=xkyKNhn6uEVLkR1BEfwi9JD5w0bbrfY0yoGxcrNTXOI"
+        logoUrl: "/assets/logos/dqlab_logo.webp"
     },
     {
         id: 10,
@@ -92,7 +92,7 @@ export const lisencesData: ILisencesData[] = [
         issuedDate: "Mar 2022",
         credentialID: "",
         skills: "SQL",
-        logoUrl: "https://media.licdn.com/dms/image/v2/C510BAQFURjtnIHVUAA/company-logo_100_100/company-logo_100_100/0/1631435607588/dqlab_logo?e=1742428800&v=beta&t=xkyKNhn6uEVLkR1BEfwi9JD5w0bbrfY0yoGxcrNTXOI"
+        logoUrl: "/assets/logos/dqlab_logo.webp"
     },
     {
         id: 11,
@@ -101,7 +101,7 @@ export const lisencesData: ILisencesData[] = [
         issuedDate: "Mar 2022",
         credentialID: "",
         skills: "SQL",
-        logoUrl: "https://media.licdn.com/dms/image/v2/C510BAQFURjtnIHVUAA/company-logo_100_100/company-logo_100_100/0/1631435607588/dqlab_logo?e=1742428800&v=beta&t=xkyKNhn6uEVLkR1BEfwi9JD5w0bbrfY0yoGxcrNTXOI"
+        logoUrl: "/assets/logos/dqlab_logo.webp"
     },
     {
         id: 12,
@@ -110,7 +110,7 @@ export const lisencesData: ILisencesData[] = [
         issuedDate: "Mar 2022",
         credentialID: "",
         skills: "SQL",
-        logoUrl: "https://media.licdn.com/dms/image/v2/C510BAQFURjtnIHVUAA/company-logo_100_100/company-logo_100_100/0/1631435607588/dqlab_logo?e=1742428800&v=beta&t=xkyKNhn6uEVLkR1BEfwi9JD5w0bbrfY0yoGxcrNTXOI"
+        logoUrl: "/assets/logos/dqlab_logo.webp"
     },
     {
         id: 13,
@@ -120,7 +120,7 @@ export const lisencesData: ILisencesData[] = [
         credentialID: "LQKn-s4wp",
         skills: "Azure AI Fundamentals",
         lisenceUrl: "https://www.certiport.com/portal/Pages/PrintTranscriptInfo.aspx?action=Cert&id=455&cvid=6YRNdljPFh4pZz5H+FNRVA==",
-        logoUrl: "https://media.licdn.com/dms/image/v2/C560BAQE88xCsONDULQ/company-logo_100_100/company-logo_100_100/0/1630652622688/microsoft_logo?e=1742428800&v=beta&t=xl5hIC3m0k6AVwH_BZe4-j74U0KH-CLRFrqlk_wNKgs"
+        logoUrl: "/assets/logos/microsoft_logo.webp"
     },
     {
         id: 14,
@@ -130,7 +130,7 @@ export const lisencesData: ILisencesData[] = [
         credentialID: "waXRs-H9uK",
         skills: "Azure Data Fundamentals",
         lisenceUrl: "https://www.certiport.com/portal/Pages/PrintTranscriptInfo.aspx?action=Cert&id=456&cvid=i9K3wbrZgb1PXhaDYXGN6A==",
-        logoUrl: "https://media.licdn.com/dms/image/v2/C560BAQE88xCsONDULQ/company-logo_100_100/company-logo_100_100/0/1630652622688/microsoft_logo?e=1742428800&v=beta&t=xl5hIC3m0k6AVwH_BZe4-j74U0KH-CLRFrqlk_wNKgs"
+        logoUrl: "/assets/logos/microsoft_logo.webp"
     },
     {
         id: 15,
@@ -140,7 +140,7 @@ export const lisencesData: ILisencesData[] = [
         credentialID: "ybRk-uTbx",
         skills: "Azure Fundamentals",
         lisenceUrl: "https://www.certiport.com/portal/Pages/PrintTranscriptInfo.aspx?action=Cert&id=414&cvid=h9Wu+pRUbcUhbxhYLP1Vzg==",
-        logoUrl: "https://media.licdn.com/dms/image/v2/C560BAQE88xCsONDULQ/company-logo_100_100/company-logo_100_100/0/1630652622688/microsoft_logo?e=1742428800&v=beta&t=xl5hIC3m0k6AVwH_BZe4-j74U0KH-CLRFrqlk_wNKgs"
+        logoUrl: "/assets/logos/microsoft_logo.webp"
     },
     {
         id: 16,
@@ -150,7 +150,7 @@ export const lisencesData: ILisencesData[] = [
         credentialID: "yU49-uTvr",
         skills: "Azure Power Platform Fundamentals",
         lisenceUrl:"https://www.certiport.com/portal/Pages/PrintTranscriptInfo.aspx?action=Cert&id=443&cvid=hh/8PtS9k6iNhooiyUX5UA==",
-        logoUrl: "https://media.licdn.com/dms/image/v2/C560BAQE88xCsONDULQ/company-logo_100_100/company-logo_100_100/0/1630652622688/microsoft_logo?e=1742428800&v=beta&t=xl5hIC3m0k6AVwH_BZe4-j74U0KH-CLRFrqlk_wNKgs"
+        logoUrl: "/assets/logos/microsoft_logo.webp"
     },
     {
         id: 17,
@@ -160,7 +160,7 @@ export const lisencesData: ILisencesData[] = [
         credentialID: "01124557021-8/DTS/BLSDM.KOMINFO/10/2021",
         skills: "Microsoft Fundamentals: AZ-DP-AI-PL",
         lisenceUrl:"https://onedrive.live.com/?id=4985AE25CB8DA6B5%212129&resid=4985AE25CB8DA6B5%212129&ithint=file%2Cpdf&redeem=aHR0cHM6Ly8xZHJ2Lm1zL2IvcyFBcldtamNzbHJvVkprRkg3RmxXVVVnT0xHM01jP2U9SUZDUmJm&migratedtospo=true&cid=4985ae25cb8da6b5&v=validatepermission",
-        logoUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Logo_of_Ministry_of_Communication_and_Information_Technology_of_the_Republic_of_Indonesia.svg/512px-Logo_of_Ministry_of_Communication_and_Information_Technology_of_the_Republic_of_Indonesia.svg.png"
+        logoUrl: "/assets/logos/kominfo_logo.webp"
     },
 
 ]

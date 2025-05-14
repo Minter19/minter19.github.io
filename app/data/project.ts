@@ -26,6 +26,6 @@ export const projectsData: IProjectData[] = [
         techStack: "Node JS, Puppeteer, Express JS",
         projectUrl: "https://github.com/Minter19/app-wa-sender-service",
         imgUrl: "https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png",
-        description: "Whatsapp API Messenger for personal use that contains api for sending whatsapp message (text, image, file, emoji)"
+        description: "Created a personal tool to automate the sending of messages via WhatsApp Web, supporting various content types including text, images, and files such as PDFs and Excel spreadsheets. The tool is designed to facilitate the sending of messages to multiple recipients simultaneously, enhancing efficiency and productivity."
     }
 ]

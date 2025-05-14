@@ -57,7 +57,7 @@ export default function Hero() {
                         </div>
                     </div>
                     <div className="hidden md:block">
-                        <Image loading="eager" src="/person.webp" className="mx-auto drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] w-[calc(60vh)] rounded-full" width={1000} height={1000} alt="hero"/>
+                        <Image loading="eager" src="/chatgpt-make.png" className="mx-auto drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] w-[calc(50dvh)] h-[calc(50dvh)] rounded-full" width={800} height={800} alt="hero"/>
                     </div>
                 </div>
             </div>

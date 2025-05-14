@@ -22,22 +22,22 @@ export default function About() {
       <section className="text-lg text-justify flex flex-col gap-2">
         <Fade>
           <p className="mt-4">
-          Hi, I&apos;m a Computer Science graduate from Universitas Sumatera Utara. During my studies, I acquired the necessary knowledge and skills in computer science, including programming, data analysis, and software development.
+          I&apos;m Minter Prasetyo Rajagukguk, a dedicated Software Developer specializing in Node.js, .NET Core, and Next.js. With a strong foundation in building scalable and efficient web applications, I focus on delivering high-quality solutions that meet complex technical challenges.
           </p>
         </Fade>
         <Fade>
         <p>
-        I&apos;m an enthusiastic and honest individual with strong critical thinking skills. In terms of hard skills, I have proficiency in Node.js, .NET Core, HTML CSS, and Next JS. As an IT Developer, I have been working at PT Sigma Cipta Utama, a subsidiary of Elnusa Tbk, where I&apos;m responsible for developing the web application for datamigas.esdm.go.id, including the portal and landing page.
+        Currently, I contribute to the development of datamigas.esdm.go.id, a project under the Ministry of Energy and Mineral Resources, through my role at PT Sigma Cipta Utama, a subsidiary of Elnusa Tbk. My work involves creating and maintaining web applications that handle intricate data related to the oil and gas sector.
         </p>
         </Fade>
         <Fade>
         <p>
-        Furthermore, I have experience in implementing and supporting an ERP application for a palm oil company in North Sumatra. I can adapt easily with new working environments and possess the ability to solve problems with critical thinking. I continuously enhance my skills through relevant training programs. I have obtained a global certificate from Microsoft through Fresh Graduate Academy by Kominfo for Microsoft Azure Fundamentals. Additionally, I also took course for Talend and Data Warehouse system on professional level.
+        Previously, I have implemented and supported ERP applications for palm oil companies in North Sumatra, demonstrating my adaptability to diverse industries and business needs.
         </p>
         </Fade>
         <Fade>
         <p>
-        With my technical proficiency as well as strong soft skills such as honesty, enthusiasm, critical thinking, and adaptability, I&apos;m ready to take on challenges in application development field and make a positive contribution in the workplace.
+        I am passionate about driving innovation and continuously enhancing my skills to solve complex problems in the tech industry. My commitment to excellence is reflected in my ongoing pursuit of professional development and my dedication to delivering impactful technological solutions.
         </p>
         </Fade>
       </section>
