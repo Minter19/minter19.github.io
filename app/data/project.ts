@@ -23,7 +23,7 @@ export const projectsData: IProjectData[] = [
         id: 3,
         projectName: "Whatsapp API Messenger",
         projectOwner: "Personal",
-        techStack: "Node JS, Pupeteer",
+        techStack: "Node JS, Puppeteer, Express JS",
         projectUrl: "https://github.com/Minter19/app-wa-sender-service",
         imgUrl: "https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png",
         description: "Whatsapp API Messenger for personal use that contains api for sending whatsapp message (text, image, file, emoji)"
