@@ -3,6 +3,15 @@ import { ILisencesData } from "../types/lisences";
 
 export const lisencesData: ILisencesData[] = [
     {
+        id: 0,
+        name: "ERPNext Development Fundamentals",
+        company: "Brainmetics",
+        issuedDate: "Apr 2025",
+        credentialID: "P.193127301.25",
+        skills: "lInux . ERPNext . Python . JavaScript . Frappe Framework",
+        logoUrl: "/assets/logos/frappe_logo.png",
+    },
+    {
         id: 1,
         name: "AKHLAK",
         company: "PT Pertamina (Persero)",

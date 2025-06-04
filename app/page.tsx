@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-background font-sans ">
       <Hero />
-      <div className="container mx-auto">
+      <div className="container-fluid mx-auto">
         <About />
         <Project/>
         <Certificate />
