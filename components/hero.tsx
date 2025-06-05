@@ -120,7 +120,7 @@ export default function Hero() {
 
                 <div className="container z-10 grid gap-10 md:gap-16 px-4 md:px-6 lg:px-8 grid-cols-1 md:grid-cols-5 items-center w-full max-w-6xl mx-auto my-auto">
                     
-                    <div className="md:col-span-3 flex flex-col items-center text-center md:items-start md:text-left order-2 md:order-1 py-8 md:py-0"> {/* Removed py-8 md:py-0 for text col */}
+                    <div className="md:col-span-3 flex flex-col items-center text-center md:items-start md:text-left order-2 md:order-1 "> {/* Removed py-8 md:py-0 for text col */}
                         <div className="w-full">
                             <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-extrabold mb-3 tracking-tight">
                                 Hi, I&apos;m <br className="md:hidden" /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-amber-500">Minter Prasetyo R.</span>
@@ -129,7 +129,7 @@ export default function Hero() {
                                 ref={scrambleRef} 
                                 onMouseOver={replay} 
                                 onFocus={replay}
-                                className="text-lg sm:text-xl md:text-2xl mb-6 min-h-[2.5em] md:min-h-[2.8em] lg:min-h-[3em] text-gray-300 font-light"
+                                className="text-lg sm:text-xl md:text-2xl mb-6 min-h-[4em] md:min-h-[4.8em] lg:min-h-[5em] text-gray-300 font-light"
                             >
                                 {scrambledText}
                             </p>
@@ -173,7 +173,7 @@ export default function Hero() {
                         </div>
                     </div>
 
-                    <div className="md:col-span-2 flex justify-center items-center order-1 md:order-2"> {/* Removed py-8 md:py-0 for image col */}
+                    <div className="md:col-span-2 flex justify-center items-center py-8 md:py-2 order-1 md:order-2"> {/* Removed py-8 md:py-0 for image col */}
                         <div className="relative group">
                              <div className="absolute -inset-0.5 bg-gradient-to-r from-purple-600 to-yellow-500 rounded-full blur-xl opacity-50 group-hover:opacity-75 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
                             <img 
